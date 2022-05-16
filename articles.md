@@ -1,11 +1,10 @@
 ---
 layout: default
-title: Another page
+title: Articles
 description: This is just another page
 ---
 
-## Welcome to another page
+{% include articles.html %}
 
-_yay_
 
 [back](./)

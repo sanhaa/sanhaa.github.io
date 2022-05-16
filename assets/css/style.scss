@@ -1,4 +1,31 @@
 ---
 ---
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Nanum+Gothic:wght@400;700&family=Noto+Serif+KR:wght@200;400;700&display=swap');
 
-@import 'jekyll-theme-cayman';
+@import "{{ site.theme }}";
+
+.page-header{
+    font-family: 'Nanum Gothic', 'Noto Serif KR', sans-serif;
+}
+.post{
+    .post-title{
+        font-family: 'Nanum Gothic', 'Noto Serif KR', sans-serif;
+        h1{
+            font-weight: bold;
+        }
+    }
+    .post-content{
+        font-size: 1.3rem;
+
+    }
+    .post-date{
+        font-family: 'Nanum Pen Script', 'Noto Serif KR';
+    }
+    .post-link{
+        font-family: 'Noto Serif KR', sans-serif;
+        color: $header-bg-color-secondary;
+        margin-left: .5rem;
+        margin-right: 1rem;
+
+    }
+}

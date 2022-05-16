@@ -1,6 +1,20 @@
-title: sanhaa
+title: Sanhaa
 description: Portfolio & Dev Blog
-show_downloads: true
+show_downloads: false
 google_analytics:
 theme: jekyll-theme-cayman
+highlighter-theme: monokai
+
+github:
+  repository_url: https://github.com/sanhaa
+
+plugins:
+  - jekyll-feed
+
+directory:
+  article: /article/
+  about: /about/
+
+category_dir: category/
+tag_dir: tag/
 
