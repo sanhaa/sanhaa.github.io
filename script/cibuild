@@ -2,8 +2,6 @@
 
 set -e
 
-chmod +x ./script/bootstrap
-
 bundle exec jekyll build
 bundle exec htmlproofer ./_site --check-html --check-sri --url-ignore '/fonts.gstatic.com/'
 bundle exec rubocop -D --config .rubocop.yml
