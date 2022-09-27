@@ -53,3 +53,7 @@ end
 gem 'wdm' if Gem.win_platform?
 gem "tzinfo-data" if Gem.win_platform?
 
+# To run this configuration locally, make sure the following is part of your Gemfile:
+# https://hydejack.com/docs/install/
+gem "github-pages", group: :jekyll_plugins
+gem "jekyll-include-cache", group: :jekyll_plugins
