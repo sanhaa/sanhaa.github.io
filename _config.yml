@@ -3,7 +3,7 @@
 
 # Uncomment and set the URL of your site (with protocol, e.g. `https://`)
 # NOTE: You don't need to provide this property when hosting on GitHub Pages or Netlify.
-url:                   https://sanhaa.github.io
+url:                   'https://sanhaa.github.io'
 
 # Uncomment and set the "base URL" of your site.
 # When your site is in a subdirectory, set to `/<name of directory>`,
@@ -32,12 +32,12 @@ description:           >
 tagline:               2022~
 
 # A list of keywords for your blog
-keywords:              []
+keywords:              [software, developer, 개발자]
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-logo:                  /assets/img/logo.png
+logo:                  /assets/img/my-logo0.jpg
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
