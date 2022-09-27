@@ -43,17 +43,18 @@ group :jekyll_plugins do
   gem "jekyll-seo-tag"
   gem "jekyll-sitemap"
   gem "jekyll-titles-from-headings"
-  gem "jekyll-include-cache"
-
+  
   # Non-Github Pages plugins:
-  gem "jekyll-last-modified-at"
-  gem "jekyll-compose"
+  #gem "jekyll-last-modified-at"
+  #gem "jekyll-compose"
+  
+  # Github Pages plugins
+  # To run this configuration locally, make sure the following is part of your Gemfile:
+  # https://hydejack.com/docs/install/
+  gem "github-pages"
+  gem "jekyll-include-cache"
 end
 
 gem 'wdm' if Gem.win_platform?
 gem "tzinfo-data" if Gem.win_platform?
 
-# To run this configuration locally, make sure the following is part of your Gemfile:
-# https://hydejack.com/docs/install/
-gem "github-pages", group: :jekyll_plugins
-gem "jekyll-include-cache", group: :jekyll_plugins
