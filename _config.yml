@@ -51,6 +51,8 @@ author:
 menu:
   - title:             Example
     url:               /example/
+  - title:             새로운 카테고리
+    url:               /new/
   - title:             Documentation
     url:               /docs/
   - title:             About
