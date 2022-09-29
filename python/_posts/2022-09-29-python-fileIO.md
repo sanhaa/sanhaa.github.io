@@ -1,14 +1,15 @@
 ---
 layout: post
-title: [Python] File I/O
+title: Python File I/O
 description: >
   파이썬 파일 input/output
 sitemap: false
 hide_last_modified: true
 ---
 
-## file open
+file io
 
+## file open
 ~~~python
 f = file.open("test_file.txt")
 lines = f.read()
