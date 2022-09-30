@@ -1,3 +1,12 @@
+- [ ] about 페이지 (author 부분) 정리하기
+- [ ] example post 지우기 (documentatin 포함)
+- [ ] 카테고리 정리하기 (새로운 카테고리 이름 수정)
+
+<br>
+---
+
+<br>  
+
 # Hydejack Starter Kit
 
 A quicker, cleaner way to get started blogging with [Hydejack](https://hydejack.com/).
