@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Python List
+title: <자료형> List
 description: >
   파이썬 리스트 자료형, 리스트 순회
 sitemap: false

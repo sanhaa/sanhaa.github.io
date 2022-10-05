@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Python list comprehension
+title: List Comprehension
 description: >
   리스트로 리스트 만들기
 sitemap: false
