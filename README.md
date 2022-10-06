@@ -1,5 +1,5 @@
 - [ ] about 페이지 (author 부분) 정리하기
-- [ ] example post 지우기 (documentatin 포함)
+- [x] example post 지우기 (documentatin 포함)
 - [x] 카테고리 정리하기 (새로운 카테고리 이름 수정)
 - [ ] favicon 디자인, 적용하기 
 
