@@ -7,8 +7,10 @@ sitemap: false
 hide_last_modified: true
 ---
 
+틱택토 게임을 구현해봤다. 파이썬은 C/C++에 비해서 문자열 비교가 너무 쉬워서 너무 행복하다.
+
 ~~~python
-### 22.10.06 실시간 강의
+### 22.10.06
 ### 틱택토 게임 구현
 ### class 변환해서 구현
 
@@ -19,8 +21,6 @@ class TicTacToe:
     def __init__(self):
         self.board = {(i + 1): " " for i in range(9)}
         self.turn = 0
-        self.cont = True
-        self.tie = False
         self.player = "B"
         self.markers = {"A": "X", "B": "O"}
 
@@ -67,6 +67,8 @@ class TicTacToe:
                 (self.board[1] == self.board[5] == self.board[9] or self.board[3] == self.board[5] == self.board[7]):
             return True
 
+    ################
+    ### 게임을 더 할 건지
     def play_again(self):
         c = input(f"New game? (y/n): ")
         if c == "y":
@@ -78,31 +80,31 @@ class TicTacToe:
     ################
     ### 메인 게임 실행 함수
     def game(self):
-        while self.cont:
-            self.print_board()
+        cont = True # continue game?
 
+        while cont:
+            self.print_board()
             self.player = self.next_player()  # self.count 기준으로 다음 순서 정하기
 
-            # input 받기
+            ### marker 위치 input 받기
             self.insert_input(self.player, self.markers[self.player])
 
-            res = self.win_game()  # 승패 판정
+            ### 승패 판정
+            res = self.win_game()
 
             ### 게임 끝, 다음 게임 진행 여부
             if res:
                 self.print_board()
                 time.sleep(0.5)
                 print(f"{self.player} WIN -------------------\n")
-                self.cont = self.play_again()  # 새로운 게임
+                cont = self.play_again()  # 새로운 게임
 
             if not res and self.turn == 9:  # 무승부 판정
                 time.sleep(0.5)
                 print(f"TIE GAME -----------\n")
-                self.cont = self.play_again()  # 새로운 게임
+                cont = self.play_again()  # 새로운 게임
 
 
 ttt = TicTacToe()
 ttt.game()
-
-
 ~~~
