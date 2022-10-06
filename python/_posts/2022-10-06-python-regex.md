@@ -10,6 +10,9 @@ hide_last_modified: true
 - Table of Contents
 {:toc .large-only}
 
+모르면 완전 암호 같지만 규칙만 알면 쉬운 정규표현식!
+
+
 # 정규표현식(regex)이란
 
 > = 정규식
@@ -44,12 +47,12 @@ import re
 > re.findall(패턴문자열, 타겟문자열)
 
 
-- 반환형: list
-- 타겟문자열에서 pattern과 일치하는 것을 모두 찾기
-- ex. 전화번호 형식 010-xxxx-xxxx 모두 찾기
+- 반환형: `list`
+- 타겟문자열에서 pattern과 일치하는 것을 모두 찾기  
 
+*ex. 전화번호 형식 010-xxxx-xxxx 모두 찾기*
 ~~~python
-s = "lee 010-2222-3333 \nkim 010-5959-5958 \npark 01011112222"
+s = "lee 010-2222-3333 kim 010-5959-5958 park 01011112222"
 p = "010-\d{4}-\d{4}"
 
 print(re.findall(p, s))
@@ -61,7 +64,7 @@ print(re.findall(p, s))
 
 > re.search (패턴문자열, 타겟문자열)
 
-- 반환형: Match object
+- 반환형: `Match object`
 - 전체 문자열 중에 매치되는 오브젝트 찾기
 - re.match()와 다른점: match는 선두에 매치되는 문자열이 없으면 None 반환하지만 search는 전체 문자열 탐색
 - match object에 group() 함수 사용하여 매치된 결과 확인
@@ -79,13 +82,13 @@ print(m1.group())
 
 > re.sub(패턴문자열, 대체할 문자열, 타겟문자열)
 
-- 반환형: 문자열
+- 반환형: `string`
 - 타겟문자열에서 패턴문자열을 찾고 특정 형식으로 대체하기
 - 대체할 문자열 파라미터에 정규식 사용 가능
 
 *ex. 유효한 전화번호는 vaild! 문구로 대체*
 ~~~python
-s = "lee 010-2222-3333 \nkim 010-5959-5958 \npark 01011112222"
+s = "lee 010-2222-3333 kim 010-5959-5958 park 01011112222"
 p = "(010)\-\d{4}\-(\d{4})"
 print(re.sub(p, "\g<1>-****-\g<2>", s))
 
@@ -98,7 +101,7 @@ park 01011112222
 
 *ex. 전화번호 가운데 네 자리 블라인드(****) 하기*
 ~~~python
-s = "lee 010-2222-3333 \nkim 010-5959-5958 \npark 01011112222"
+s = "lee 010-2222-3333 kim 010-5959-5958 park 01011112222"
 p = "(010)\-\d{4}\-(\d{4})"
 print(re.sub(p, "\g<1>-****-\g<2>", s))
 
