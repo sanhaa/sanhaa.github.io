@@ -11,4 +11,7 @@ hide_last_modified: true
 import csv
 
 csvreader = csv.reader(open("test.txt"))
+
+for line in csvreader:
+    print(line)
 ~~~
