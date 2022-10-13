@@ -1,6 +1,6 @@
 ---
 layout: post
-title: <Regression> Simple Linear Regression
+title: <머신러닝> Simple Linear Regression
 description: >
   선형 회귀에 대하여, 그리고 python과 사이킷런으로 단순선형회귀모델 구현하기
 sitemap: false
