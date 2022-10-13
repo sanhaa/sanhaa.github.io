@@ -42,9 +42,9 @@ ex. 몸무게-키 데이터에서 몸무게에 따른 키 예측하기
 
 - 하나의 X (input) -> Y (output) 예측
 - 직선 하나
-- 기울기($$\beta_0$$)와 절편($$\beta_1$$) 찾기
+- 기울기($$\beta_1$$)와 절편($$\beta_0$$) 찾기
 
-선형회귀의 목적: $$ Y = \beta_0X + \beta_1 $$ 의 직선 찾기
+선형회귀의 목적: $$ Y = \beta_0 + \beta_1X $$ 의 직선 찾기
 
 ## 좋은 직선 긋기, Loss Function
 > 좋은 직선이란? 실제값(y)과 예측값($$\beta_0X + \beta_1 $$ )의 차이가 적을수록 좋다. 
@@ -55,7 +55,7 @@ ex. 몸무게-키 데이터에서 몸무게에 따른 키 예측하기
 Loss Function (손실함수)  
 
 $$
-\sum_{i}^n  (y_i - (\beta_0x_i + \beta_1))^2
+\sum_{i}^n  (y_i - (\beta_0 + \beta_1x_i))^2
 $$
 
 - = Cost Funtion
@@ -83,7 +83,7 @@ $$
 
 ## Scikit-learn을 이용한 회귀분석
 ~~~python
-import matplotlㅑb.pyplot as plt
+import matplotlib.pyplot as plt
 import numpy as np
 from sklearn.linear_model import LinearRegression
 
@@ -93,7 +93,7 @@ def loss(x, y, beta_0, beta_1):
 
     l = 0 # loss 값
     for i in range(N):
-        l += (y[i] - (beta_0*x[i] + beta_1))**2
+        l += (y[i] - (beta_0 + beta_1*x[i]))**2
     
     return l
 
@@ -109,8 +109,8 @@ train_Y = np.array(Y).reshape(-1, 1)
 lrmodel = LinearRegression()
 lrmodel.fit(train_X, train_Y)
 
-beta_0 = lrmodel.coef_[0]   # lrmodel로 구한 직선의 기울기
-beta_1 = lrmodel.intercept_ # lrmodel로 구한 직선의 y절편
+beta_0 = lrmodel.intercept_ # lrmodel로 구한 직선의 y절편
+beta_1 = lrmodel.coef_[0]   # lrmodel로 구한 직선의 기울기
 
 ###########
 ### 학습 결과 출력
@@ -119,7 +119,7 @@ print("beta_1: %f" % beta_1)
 print("Loss: %f" % loss(X, Y, beta_0, beta_1))
 
 plt.scatter(X, Y)
-plt.plot([0, 10], [beta_1, 10 * beta_0 + beta_1], c='r')
+plt.plot([0, 10], [beta_0, 10 * beta_1 + beta_0], c='r')
 
 plt.xlim(0, 10) # 그래프의 X축을 설정합니다.
 plt.ylim(0, 10) # 그래프의 Y축을 설정합니다.
