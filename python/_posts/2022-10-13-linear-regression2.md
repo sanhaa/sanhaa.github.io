@@ -115,6 +115,12 @@ if __name__ == "__main__":
 </div>
 </details>
 
+![](/assets/img/221013/multi-res.jpg)
+
+{:.figcaption}
+
+실행 결과
+
 ## 과적합 방지
 
 ### 1. 교차 검증 (Cross Validation)
@@ -142,12 +148,13 @@ if __name__ == "__main__":
 1. L1 정규화 (Lasso)
 2. L2 정규화 (Ridge)
 
----
-
-[^1]: 과도하게 학습 데이터에 맞춰져 일반화 능력이 떨어지는 상태, 학습 데이터에 대해서는 오차가 감소하지만 실제 데이터에 대해서는 오차가 증가하게 된다.
+<br>
 
 ---
 
 ## Reference
-https://www.geeksforgeeks.org/multiple-linear-regression-with-scikit-learn/
-https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.KFold.html
++ https://www.geeksforgeeks.org/multiple-linear-regression-with-scikit-learn/  
++ https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.KFold.html
+
+
+[^1]: 과도하게 학습 데이터에 맞춰져 일반화 능력이 떨어지는 상태, 학습 데이터에 대해서는 오차가 감소하지만 실제 데이터에 대해서는 오차가 증가하게 된다.
