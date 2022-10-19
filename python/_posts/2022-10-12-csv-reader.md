@@ -1,6 +1,6 @@
 ---
 layout: post
-title: <기본> CSV 파일 읽기
+title: Basic | CSV 파일 읽기
 description: >
   파이썬에서 csv 파일 읽는 법
 sitemap: false

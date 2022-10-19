@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Python 문자열 함수
+title: Basic | Python 문자열 함수
 description: >
   파이썬 문자열에 자주 사용하는 함수
 sitemap: false

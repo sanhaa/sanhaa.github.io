@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Python File I/O
+title: Basic | Python File I/O
 description: >
   파이썬 파일 input/output
 sitemap: false

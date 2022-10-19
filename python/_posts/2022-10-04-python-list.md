@@ -1,6 +1,6 @@
 ---
 layout: post
-title: <자료형> List
+title: Baisc | List 자료형
 description: >
   파이썬 리스트 자료형, 리스트 순회
 sitemap: false

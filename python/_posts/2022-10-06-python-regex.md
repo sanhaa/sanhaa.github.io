@@ -1,6 +1,6 @@
 ---
 layout: post
-title: <Python> 정규표현식, re 모듈 사용하기
+title: Basic | 정규표현식, python re 모듈 사용하기
 description: >
   정규표현식이란 무엇인가, 파이썬에서 정규표현식 사용하기 (메타문자, 수량자, 파이썬 모듈 re 사용하기)
 sitemap: false

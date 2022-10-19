@@ -1,6 +1,6 @@
 ---
 layout: post
-title: itemgetter()
+title: Basic | 특정 데이터 가져오기 (operator.itemgetter)
 description: >
   itemgetter()는 특정 인덱스, key 값을 가진 데이터를 반환
 sitemap: false

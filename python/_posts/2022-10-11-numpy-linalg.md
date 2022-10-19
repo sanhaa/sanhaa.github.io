@@ -1,6 +1,6 @@
 ---
 layout: post
-title: <Numpy> 선형대수학 기초, 행렬 곱 연산(dot(), *, @)
+title: Numpy | 선형대수학 기초, 행렬 곱 연산(dot(), *, @)
 description: >
   선형대수학 기초와 numpy 함수, 행렬의 곱 연산 차이
 sitemap: false

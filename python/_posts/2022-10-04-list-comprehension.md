@@ -1,6 +1,6 @@
 ---
 layout: post
-title: List Comprehension
+title: Baisc | List Comprehension 문법
 description: >
   리스트로 리스트 만들기
 sitemap: false

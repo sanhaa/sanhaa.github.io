@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Matplotlib
+title: 시각화 | Matplotlib 기초
 description: >
-  matplotlib 라이브러리
+  matplotlib 라이브러리 기본 사용법
 sitemap: false
 hide_last_modified: true
 ---
@@ -26,7 +26,6 @@ import matplotlib.pyplot as plt
 
 ## 1. [plt.plot()](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.plot.html)
 > state machine interface 방식
-
 
 
 *선(또는 점) 그래프*  
