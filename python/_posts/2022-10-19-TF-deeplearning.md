@@ -97,8 +97,8 @@ y_data = 1.5 * x_data**2 -12 * x_data + np.random.randn(*x_data.shape)*2 + 0.5
 
 # 모델 정의
 model = tf.keras.models.Sequential([
-    tf.keras.layers.Dense(20, input_dim = 1, activation='relu'),
-    tf.keras.layers.Dense(20, activation='relu'),
+(    tf.keras.layers.Dense(20, input_dim = 1, activation='relu'),
+)    tf.keras.layers.Dense(20, activation='relu'),
     tf.keras.layers.Dense(1)
 ])
 
