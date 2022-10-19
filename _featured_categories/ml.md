@@ -3,14 +3,14 @@
 layout: list
 
 # The title of the tag's page.
-title: Python for 데이터 분석
+title: Machine Learning
 
 # The name of the tag, used in a post's front matter (e.g. tags: [<slug>]).
-slug: python
+slug: ml
 
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
-  데이터 분석을 위한 파이썬 공부
+  (파이썬) 머신러닝, 딥러닝 공부 with TensorFlow
 
 # (Optional) You can disable grouping posts by date.
 no_groups: true

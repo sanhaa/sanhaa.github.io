@@ -10,7 +10,8 @@ author1:
   about:             |
     다정하기, 즐겁기
     
-    
+  github:            sanhaa
+  
   # This photo will be used in the about section
   picture:
     path:            /assets/img/about0.jpg
@@ -56,7 +57,7 @@ author1:
     # trello:          <firstnamelastname>
     # linkedin:        <firstname-lastname-string>
     # xing:            <firstname_lastname_counter>
-    blogger:         <number>
+    # blogger:         <number>
     # delicious:       <username>
     # stumbleupon:     <username>
     # paypal:          <username>
