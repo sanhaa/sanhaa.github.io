@@ -6,7 +6,6 @@ description: >
 # sitemap: false
 hide_last_modified: false
 comments: true
-
 ---
 
 
@@ -120,21 +119,3 @@ tf.keras.layers.BatchNormalization()
 
 tf.keras.layers.Activation()
 ~~~
-
-{% if page.comments %}
-<script src="https://giscus.app/client.js"
-        data-repo="sanhaa/sanhaa.github.io"
-        data-repo-id="R_kgDOIEwqfg"
-        data-category="General"
-        data-category-id="DIC_kwDOIEwqfs4CSEw_"
-        data-mapping="pathname"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="bottom"
-        data-theme="preferred_color_scheme"
-        data-lang="ko"
-        crossorigin="anonymous"
-        async>
-</script>
-{% endif %}
