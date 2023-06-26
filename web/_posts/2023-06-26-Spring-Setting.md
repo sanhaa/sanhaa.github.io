@@ -46,7 +46,7 @@ Java HotSpot(TM) 64-Bit Server VM (build 17.0.1+12-LTS-39, mixed mode, sharing)
 - Spring Boot 3.0 쓰려면 자바 버전이 최소 17이어야 한다.
 - 회사는 java 8인가 쓰는데 버전에 괴리가 있긴 하지만,,
 
-![](/assets/img/230626/springboot.png)
+![](/assets/img/230626/springboot.PNG)
 - thymeleaf(타임리프): html 템플릿 엔진
 - zip으로 다운로드 하면 됨!
 
@@ -58,7 +58,7 @@ Java HotSpot(TM) 64-Bit Server VM (build 17.0.1+12-LTS-39, mixed mode, sharing)
 
 - gradle: 버전 설정, library 가져오는 역할
 - 실행하고 `localhost:8080` 접속하면
-![](/assets/img/220626/build.png)
+![](/assets/img/230626/build.PNG)
 - spring 안에 tomcat (웹서버) 내장 (=tomcat 따로 설치 안해도 된당~~)
 - 이처럼 페이지 뜨면 완료
 
