@@ -25,7 +25,7 @@ title:                 Sanhaa's devlog
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  꼬꼬마 개발자, 기억보다 기록하기
+  meta description tag
 
 # A shorter description for the sidebar.
 tagline:               2022~
@@ -54,6 +54,8 @@ menu:
     url:               /ml/
   - title:             Archive
     url:               /archive/
+  - title:             Web(Spring)
+    url:               /web/
   # - title:             Example
   #   url:               /example/
   # - title:             Documentation
