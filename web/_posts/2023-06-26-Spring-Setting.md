@@ -47,7 +47,7 @@ Java HotSpot(TM) 64-Bit Server VM (build 17.0.1+12-LTS-39, mixed mode, sharing)
 - 회사는 java 8인가 쓰는데 버전에 괴리가 있긴 하지만,,
 
 ![](/assets/img/230626/springboot.png)
-
+- thymeleaf(타임리프): html 템플릿 엔진
 - zip으로 다운로드 하면 됨!
 
 
