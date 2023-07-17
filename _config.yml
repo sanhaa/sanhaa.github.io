@@ -83,6 +83,9 @@ permalink:             /:categories/:year-:month-:day-:title/
 paginate:              10
 paginate_path:         /:num/
 
+# custom favicon
+favicon: /favicon.ico
+
 
 # Theme
 # ---------------------------------------------------------------------------------------
