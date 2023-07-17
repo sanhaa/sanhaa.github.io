@@ -51,9 +51,8 @@ Java Virtual Machine
 - Java는 자바 가상머신(JVM) 위에서 컴파일/실행 된다. --> OS에 독립적인 특징을 가짐
 - JVM은 OS에 종속받지 않고 CPU가 Java를 인식, 실행할 수 있게 하는 가상 컴퓨터
 
-  ![](2023-07-17-16-31-17.png)
-  java 컴파일, 실행 과정
-  {:.figcaption}
+![](/assets/img/2023-07-17-16-31-17.png)
+
 
 - 우리가 짠 Java 코드(.java)는 `Java Compiler`에 의해 Java bytecode(.class)로 변환된다.
 - `Java Compiler`는 `jdk > bin > javac.exe`를 의미한다.
@@ -63,7 +62,7 @@ Java Virtual Machine
 
 ### JVM 구성요소
 
-![](2023-07-17-16-43-42.png)
+![](/assets/img/2023-07-17-16-43-42.png)
 
 ## 4. jre와 jdk 차이
 
@@ -78,8 +77,9 @@ Java를 활용해 개발, 실행하기 위한 기능을 갖춘 Java용 SDK이다
 JDK는 JRE + Javac, jdb, javadoc 같은 도구도 있다.
 java 프로그램을 생성, 컴파일, 실행할 수 있음
 
-![](2023-07-17-16-37-54.png)
-1. 컴파일환경 2. 실행환경(jre)
+![](/assets/img/2023-07-17-16-37-54.png)
+
+1.컴파일환경과 2.실행환경(jre)
 {:.figcaption}
 
 ```bash
