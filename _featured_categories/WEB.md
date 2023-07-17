@@ -10,7 +10,7 @@ slug: web
 
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
-  Web 개발 공부, Spring
+  Web 개발 공부, Java, Spring
 
 # (Optional) You can disable grouping posts by date.
 # no_groups: true
