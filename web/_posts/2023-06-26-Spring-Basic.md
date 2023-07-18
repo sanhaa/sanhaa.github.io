@@ -8,7 +8,8 @@ hide_last_modified: false
 ---
 
 - Table of Contents
-{:toc .large-only}
+{:toc}
+
 
 ## Spring 프레임워크란?
 **Java 웹 개발을 도와주는 프레임워크** 이다.  
