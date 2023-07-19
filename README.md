@@ -1,3 +1,12 @@
+## 할 일
+
+- [x] post: spring의 이해
+- [x] post: java의 이해 (jvm, jdk, jre 등)
+- [ ] post: 빌드 환경 (ant, grade, maven) 
+- [ ] vscode 유용한 플러그인 설정
+- [ ] github 방명록이든, 댓글 환경 구축
+- [ ] post 시리즈 링크 - html 컴포넌트 만들기??
+
 - [ ] about 페이지 (author 부분) 정리하기
 - [x] example post 지우기 (documentatin 포함)
 - [x] 카테고리 정리하기 (새로운 카테고리 이름 수정)

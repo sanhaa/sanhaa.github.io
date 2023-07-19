@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Github Pages + Jekyll (hydejack 테마) 블로그
+title: Github Pages 블로그 (1) - hydejack 테마 적용하고 실행하기
 description: >
   github pages와 jekyll 이용해서 블로그 만들기, hydejack 테마 사용하기
 sitemap: false
@@ -62,7 +62,7 @@ hide_last_modified: true
 
 hydejack 테마 예전 버전에서는 상관 없었는데, 최신 버전(현재 버전 9)부터는 뭔가 기능이 많아져서 그런지 이대로 레포를 생성하면 github pages가 제대로 호스팅을 못한다. 
 
-![](/assets/img/220927/gp-error.png)
+![](/assets/img/220927/gp-error.PNG)
 
 build jekyll 명령어에서 계속 에러남
 {:.figcaption}

@@ -84,7 +84,7 @@ paginate:              10
 paginate_path:         /:num/
 
 # custom favicon
-favicon: /favicon.ico
+favicon: /assets/icons/favicon.ico
 
 
 # Theme
