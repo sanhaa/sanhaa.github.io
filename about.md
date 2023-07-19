@@ -13,13 +13,8 @@ redirect_from:
 
 <!--author-->
 
-### 할 일
-
-- [ ] post: spring의 이해
-- [x] post: java의 이해 (jvm, jdk, jre 등)
-- [ ] post: 빌드 환경 (ant, grade, maven) 
-- [ ] vscode 유용한 플러그인 설정
-- [ ] github 방명록이든, 댓글 환경 구축
+### 테스트
+{% include my-test.html %}
 
 ### 방명록 ↓↓↓↓
 
