@@ -1,12 +1,3 @@
-{% assign series = include.series  %}
-
-{% capture series_name %}site.data.series-list.{{ series }}{% endcapture %}
-
-{{ series | inspect }}
-{{ series_name | inspect }}
-
-{% if series_name %}
-
 <h3>연관 포스트 보기</h3>
 <ul>
     {% for item in site.data.series-list %}
@@ -18,4 +9,3 @@
     {% endfor %}
 </ul>
 <br>
-{% endif %}
