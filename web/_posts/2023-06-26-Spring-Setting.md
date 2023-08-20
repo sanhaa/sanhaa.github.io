@@ -16,7 +16,7 @@ hide_last_modified: true
 겨울이 지나고 봄이 오긴 뭘 ㅠㅠ
 도대체 왜쓰나요 스프링
 
-[친해지자 스프링아(곧 쓸 예정)](/web/_posts/2023-06-26-Spring-Basic.md)
+[친해지자 스프링아(곧 쓸 예정)](/web/2023-06-26-Spring-Basic)
 
 ## 1. Java 다운로드
 일단 Spring이든 뭐든 Java로 웹 개발 해야하므로 
