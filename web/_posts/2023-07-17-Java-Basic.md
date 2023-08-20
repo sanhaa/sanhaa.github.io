@@ -99,11 +99,11 @@ java hello # hello.class 파일을 의미
 
 ### Build Tool (Ant, Maven, Gradle)
 
-[Build Tool에 대해서](web\_posts\2023-07-17-Java-BuildTool.md)
+[Build Tool에 대해서](/web/2023-07-17-Java-BuildTool)
 
 ### war와 jar
 
-[war와 jar 등 자바관련 파일 종류](web/_posts/2023-07-17-war-jar.md)
+[war와 jar 등 자바관련 파일 종류](/web/2023-07-17-war-jar)
 
 
 ### Package와 Class와 Java파일
@@ -118,7 +118,7 @@ package를 통해 비슷한 class를 묶어서 계층적으로 관리한다.
 `.class` 파일은 `.java`파일을 컴파일할 경우 컴파일러가 자동으로 생성해주는 파일이다.
 실제 class의 정의는 `.java`에 기술됨.
 
-자세한 건: [war와 jar 등 자바관련 파일 종류](web/_posts/2023-07-17-war-jar.md)
+자세한 건: [war와 jar 등 자바관련 파일 종류](/web/2023-07-17-war-jar)
 
 
 ### Java 설치할 때 왜 환경변수를 설정해줘야 하는 걸까?
