@@ -121,6 +121,8 @@ maven의 xml형태보다 가독성이 우수하며 빠르다.
 Configuration Injection 방식
 `build.gradle` 에 설정
 
+- `gradlew`란?
+
 ---
 
 ## 이클립스의 Dynamic Web Project

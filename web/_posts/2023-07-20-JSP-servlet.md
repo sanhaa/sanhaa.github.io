@@ -82,6 +82,8 @@ init() -> service() -> destroy() 관리
 3. 멀티 쓰레드 지원 및 관리  
 4. 선언적인 보안 관리
 
+## servlet과 spring 사이의 관계
+https://jaehoney.tistory.com/307
 
 ## 그럼 JSP는 뭔데
 
