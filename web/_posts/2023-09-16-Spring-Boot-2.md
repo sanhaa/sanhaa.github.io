@@ -32,9 +32,11 @@ hide_last_modified: true
  
 # 동적 컨텐츠를 제공하는 방법
 ## 1. MVC
+- Model / View / Controller로 쪼개서
+- 렌더링이 된 html을 전달해준다.
 
 ## 2. API
-
+- HTTP reponse Body에 내용을 반환
 
 ![](/assets/img/2023-09-16-Spring-Boot-2/2023-09-16-18-24-30.png)
 
