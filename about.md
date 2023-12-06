@@ -9,15 +9,29 @@ redirect_from:
   - /download/
 ---
 
-# About
+# 할 일
 
-<!--author-->
+| 여부 |  카테고리 | 세부내용                |
+|:----|:----------|:------------------------|
+|     |  dev      | post series 기능        |
+|     |  dev      | 댓글기능 - github issues |
+|     |  post    |   OracleDB 구조 기초    |
+|     |  post    |   OracleDB 구조 기초    |
+|     |  github관리 | 학교 프로젝트 중 관리할 레포 검토   |
+|=====|======|==============================|
 
-### 테스트
-{% include my-test.html %}
 
-### 방명록 ↓↓↓↓
+
+<!-- # About -->
+
+<!-- author -->
+
+<!-- ### 테스트
+{% include my-test.html %} -->
+
+<!-- ### 방명록 ↓↓↓↓
 
 > github으로 로그인하고 방명록을 달아보아요
 
-{% include my-body.html %}
+
+{% include my-body.html %} -->

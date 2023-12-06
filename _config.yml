@@ -56,6 +56,8 @@ menu:
     url:               /archive/
   - title:             Web(Spring)
     url:               /web/
+  - title:             Project
+    url:               /project/
   # - title:             Example
   #   url:               /example/
   # - title:             Documentation

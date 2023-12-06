@@ -32,7 +32,6 @@ hide_last_modified: true
 - 강의를 얼마나 봤고, 얼마나 이해되었는지.
 - 모르는 것들 질문
     - 더 깊이 있는 걸 알고 싶다. 유료 강의 들을 듯!!
-    - 
 
 ## 2. Java 객체지향 프로그래밍 실습
 
@@ -49,10 +48,10 @@ hide_last_modified: true
     - 두 수가 모두 양수인지 검사하기
     
 
-- 객체지향으로 Calculator를 만들기
+- 객체지향으로 Calculator를 만들기 (템플릿: )
     0. 절차지향/ 객체지향 calculator의 interface 만들고 인터페이스 기준으로 테스트하기 
     1. operator(사칙연산) interface 만들고 AddtionOperator, SubtractionOperator 등의 구현체 만들기
-    --> 내일 오후 두시 전까지 템플릿을 줄게
+    
 
 
 ## 3. 토이 프로젝트 (11월 ~ )
@@ -64,9 +63,7 @@ hide_last_modified: true
 - 이미 있는 것 + 창의적/독창적 기능
 - 시작 ~~ 수익 창출까지 (광고 등)
 - 실제로 누군가가 사용할 수 있는 사이트였으면 좋겠다!!
-
 - 주제 + 요구사항
-
 - 공대생과 책 ㅋㅋㅋㅋ
 
 ## 프로젝트 진행 및 스터디 계획
