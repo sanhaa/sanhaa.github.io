@@ -54,16 +54,16 @@ vue.cmd create project
 
 이전에 깔아놓은 wsl
 내가 뭐 하다가 좀 맛탱이가 간 거 같아서,, 쓰고 있진 않았는데
-어쨌든 얘도 똑같이 별다른 에러 없이 명령어를 못찾네요
+혹시 몰라 여기도 찍어보니까 안되네.
 
 
 ### windows terminal - powershell
 내가 좋아하는 windows terminal 열어서 powershell 열었더니 얘는 또 다른 에러 메세지가 나온다.
-보안 오류라네
+보안 오류??
 ![](/assets/img/2023-11-27-example-content/2023-12-09-00-25-03.png)
 
 아니 그럼, 보안오류 때문에 ide 내부 terminal 에서 `vue-cli` 실행이 안됐던 건가??
-맞다면 ide terminal 은 처음부터 왜 이 오류를 못뱉은걸까요 ,,,
+ide terminal 은 처음부터 왜 이 오류를 못뱉은걸까요 ,,,
 
 근데 또 아래 재밌는 게 있어서 이거 먼저 해보기로 함
 
@@ -74,32 +74,39 @@ vue.cmd create project
 ![](/assets/img/2023-11-27-example-content/2023-12-09-00-27-30.png)
 
 
-1) wsl에서 확인한 node 버전이 내가 설치한 것과 다르다. (왜지 도대체)  
-2) `powershell` 과는 또다른 에러
+wsl에서 확인한 node 버전이 내가 설치한 것과 다르네? 
+아, 잠시 띠용했는데 과거 언젠가 wsl 에 node 설치를 해놨었나보다 ;;;  
 
 
-~~아니? 사실 흥미롭지 않고 열받아~~
+
+~~아니? 사실 흥미롭지 않고 열받아 (진짜 기억 안남)~~
+
 
 ## wsl 에 node 재설치
 
 > 아, 일단 장기적으로는 wsl 을 사용하고 싶으니 wsl 에 node를 재설치하자.
 
+재설치 전에, 
 뭔가가 꼬일 수 있으니 windows에 설치했던 node는 삭제 해주자.
+
+제어판 > 프로그램 추가/제거에서 지웠다.
+
 
 [ms가이드: wsl에 node.js설치](https://learn.microsoft.com/ko-kr/windows/dev-environment/javascript/nodejs-on-wsl)
 
 가이드 보고 따라했다.
 
 ![](/assets/img/2023-11-27-example-content/2023-12-09-00-49-14.png)
+
 아니 직접 windows에 설치하고 싶은데 안됐다고요 (울먹)
 
 ![](/assets/img/2023-11-27-example-content/2023-12-09-00-49-45.png)
+
 맞다.. 이런 거 꼬이지 않도록 하는 게 중요한데 너무 대충 생각해버렸엉.
 
 
 ### 그래 일단 있던 node 삭제
 
-뭔가 언젠가(?) 설치된 노드가 있었나보다(기억안남;;). 
 auto-remove 옵션까지 줘서 삭제했다. 
 
 ![](/assets/img/2023-11-27-example-content/2023-12-09-00-52-33.png)
@@ -155,13 +162,13 @@ nvm use v18.19.0
 
 ![](/assets/img/2023-11-27-example-content/2023-12-09-01-09-45.png)
 
-intellij
+intellij Terminal > WSL 
 {:.figcaption}
 
 
 ![](/assets/img/2023-11-27-example-content/2023-12-09-01-10-16.png)
 
-vscode
+vscode Terminal > WSL
 {:.figcaption}
 
 ![](/assets/img/2023-11-27-example-content/2023-12-09-01-12-31.png)
@@ -169,7 +176,7 @@ vscode
 powershell에서는 인식하지 못하는 모습
 {:.figcaption}
 
-아,, 정말 이제 왔다갔다 안하고 wsl로만 착실히 개발해야겠다.
+아,, 정말 이제 왔다갔다 안하고 `wsl` 환경으로만 착실히 개발해야겠다.
 
 다시 vue-cli를 설치해주니,,
 
@@ -223,4 +230,6 @@ springboot 플젝도 8080으로 띄우고 있어서 포트를 변경하여 지�
 
 - 보안 관련 에러가 아니다보니까 이 문제인지 생각도 못했고.. wsl도 안되니까 뭔가 다른 big issue가 있을 것이라 예상 했지만,,, 
 
-- 그러니까 정리하자면, windows 나 wsl 나 둘 다 같은 문제인줄 알았으나, 사실 내부적으로는 아예 다른 문제였단 것,,,?
+-  정리하자면, windows랑 wsl 환경이랑 둘 다 같은 문제인줄 알았으나, 사실 내부적으로는 아예 다른 문제였단 것.
+
+- IDE에서 terminal 여는 거 어떻게 하는거지 ? pipeline 같은 느낌이려나. 근데 찾아보긴 귀찮 ㅎ;; 여튼 IDE로 terminal 쓸 때 실제 에러로그랑 다르게 떨어질 수도 있다는 걸 배웠다. 
