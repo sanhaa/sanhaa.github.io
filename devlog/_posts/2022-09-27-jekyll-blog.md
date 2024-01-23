@@ -8,8 +8,9 @@ hide_last_modified: true
 ---
 
 예전에 만들다가 말았던 기술 블로그를 다시 만들어 보기로 했다.  
-일단 ruby, bundler 다 세팅된 상태 ~~(근데 로컬에서 페이지 띄울 거 아니면 ruby 설치 안해도 상관 없을걸..?)~~
+일단 ruby, bundler 다 세팅된 상태 ~~(여튼 로컬에서도 띄워봐야 하므로,, 대충 ruby 깔았음)~~
 
+[jekyll 환경설정(ruby, jekyll 설치)](https://github.com/sanhaa/Study/blob/main/Jekyll.md)
 
 `github pages`: 깃헙이 제공하는 기능, 정적 웹사이트 호스팅  
 `jekyll`: 정적 사이트 생성기
@@ -18,7 +19,6 @@ hide_last_modified: true
 *jekyll*을 이용하면 페이지 구조를 짜거나 DB 구축할 필요 없이 기본 blog 형태의 사이트를 편하게 만들 수 있고  
 *github pages*를 이용하면 무료 웹 호스팅 가능
 
-[더 자세한 정리 + jekyll 환경설정](https://github.com/sanhaa/Study/blob/main/Jekyll.md)
 
 
 ## Jekyll 테마 고르기
@@ -29,6 +29,7 @@ hide_last_modified: true
 - 데모 페이지도 볼 수 있다.
 - 마음에 드는 걸 골랐으면 해당 테마의 git 레포지토리를 들어가서
 - fork 하거나 download 해서 테마 사용
+
 
 ### 내가 고른 테마
 
@@ -114,7 +115,8 @@ server running 나오는지 확인
 
 ## bundler install 중 에러 해결
 
-![](/assets/img/220927/bundler-error.jpg)
+![](/assets/img/220927/bundler-error.jpg)  
+
 bundler install 실행시 에러
 {:.figcaption}
 
@@ -125,6 +127,7 @@ github-pages가 지원하는 최신 jekyll 버전을 검색해봤다. [github-pa
 https://pages.github.com/versions/)
 
 ![](/assets/img/220927/gp-dep.jpg)
+
 3.9.2까지 지원
 {:.figcaption}
 
@@ -155,7 +158,7 @@ Gemfile에서 지킬 버전을 3.9로 수정하니 해결
 url:                   'https://sanhaa.github.io' # 주석 읽어보면 안해도 되는데 그냥 함
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 Sanhaa's velog
+title:                 devlog by mming
 
 # ...
 
@@ -173,12 +176,15 @@ accent_image:          /assets/img/sidebar-bg1.jpg
 accent_color:          rgb(79,177,186)
 ~~~
 
-![](/assets/img/220927/sidebar.jpg)
-잘 반영된 모습, 새로운 카테고리는 무시
+
+![](/assets/img/2022-09-27-jekyll-blog/2024-01-23-22-50-58.png)
+
+잘 반영된 모습, 사진은 직접 찍은 건데 잘 어울려서 기분 좋다. mming은 그냥 단어가 귀여워서 ㅎ
 {:.figcaption}
 
-> 카테고리 추가 방법은 다음 포스트로...
+> 카테고리 추가 방법은 다음 포스트로... (내가 부지런 하다면요.. )
 
 ----
 ## Reference
-- https://velog.io/@shg4821/%EA%B9%83%ED%97%88%EB%B8%8C-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0-1
+- [깃허브 블로그 만들기](https://velog.io/@shg4821/%EA%B9%83%ED%97%88%EB%B8%8C-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0-1)
+
